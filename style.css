@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  margin: auto;
+}
+
+#title-container {
+  width: 40rem;
+  height: 16rem;
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#container1 {
+  height: 20rem;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.care-bears-img{
+  width: 34rem;
+}
+
+#container2 {
+  height: 20rem;
+  width: 86%;
+  display: grid;
+  align-items: center;
+}
+.pop-bears-container {
+  width: 89%;
+  height: 19em;
+  grid-template-columns: auto auto;
+  display: grid;
+  justify-content: space-between;
+}
+.bears-pop{
+  width: 13rem;
+}
+.rainbow-bears {
+  width: 31rem;
+}
+.grid-container{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto;
+}
+img{
+  border: 1px solid;
+}
+#container3{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.care-bears-poster{
+  width: 27.4rem;
+}
+.pop-bears-container-2{
+  display: grid;
+  align-content: space-between;
+}
+.bear-img{
+  width: 45rem;
+  margin-left: 70px;
+}
+#container4{
+  height: 23rem;
+  /* margin-left: 10px; */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+}
